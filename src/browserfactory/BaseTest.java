@@ -29,5 +29,4 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  //give implicit wait to driver
     }
     public static void closeBrowser() {driver.quit();}
-
 }
